@@ -1,0 +1,30 @@
+#background{
+     background-color: pink;
+}
+
+#education {
+    text-align: center;
+    color: white;
+}
+#the_list{
+    text-align: center;
+}
+#quote{
+    text-align:center;
+    color: white;
+}
+#nelson_picture :hover{
+    text-align: center;
+    opacity: 6;
+    transform: scale(1.1);
+    width: 10%;
+    height: auto;   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+#declaration{
+    text-align: center;
+}
