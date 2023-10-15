@@ -37,7 +37,7 @@ body {
   text-align: center;
 }
 img {
-  display: block;
+  display: inline;
   margin: 0 auto;
   max-width: 300px;
 }
@@ -233,6 +233,23 @@ main section {
 #background {
   height: 725px;
 }
-.join:hover {
 
+.icon {
+  height: 50px;
+  width: 50px;
+}
+#moutains {
+  margin: 0px;
+}
+.change {
+  margin: 0px;
+}
+.my_text {
+  color: white;
+}
+.my_social {
+  background-color: #2d728f;
+}
+.social_media {
+  text-align: left;
 }

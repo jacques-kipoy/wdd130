@@ -1,0 +1,22 @@
+
+div img {
+    padding: 50px;
+    margin: 10px;
+    font-size: 10px;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    border: 20px rgb(62, 13, 222) ;
+    border-radius: 50%;
+}
+
+body {
+    background-color: rgb(71, 69, 69);
+    text-align: center;
+    margin: 0;
+
+}
+
+.my_image {
+    border: 50px darkblue;
+}
