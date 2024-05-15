@@ -19,10 +19,6 @@
     --nav-link-color:#3f9de0;
     --nav-hover-link-color: #a1192b;
     --nav-hover-background-color:#1e3b7a;
-    
-
-
-
 }
   
 body {
@@ -30,7 +26,6 @@ body {
     max-width: 960px;
     padding: 20px;
     max-width: 960px;
-    padding: 20px;
 }
 
 h1,h2,h3,h4,h5,h6 {

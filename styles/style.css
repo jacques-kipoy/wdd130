@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 nav {
     background-color: steelblue;
     padding: 10px;
@@ -12,7 +18,7 @@ h1 {
     color: steelblue;
 }
 img {
-    width: 150;
+    width: 150px;
     height: auto;
     border: 1px steelblue;
     padding: 2px;
@@ -58,7 +64,6 @@ footer {
     text-align: center;
 }
 
-/*            My own                       */
 html {
     font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
     font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google Fonts */
@@ -82,4 +87,30 @@ img,
 #me {
     display: block;
     margin: 0 auto;
+} 
+
+
+
+/* Class Selectors */
+
+.box {
+    margin:1rem ;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
 }
+
+aside {
+    width: 200em;
+    text-align: center;
+}
+
+main img {
+    float: right;
+}
+aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 150px;
+} 
