@@ -1,0 +1,49 @@
+.flexbox-container {
+    flex: 1 0 0px;  /* A shorthand for this property is to assign the first number for as my flex-grow, the second number is flex-shrink, and the third is the flex-basis
+    /* height: 700px; */
+    display: flex;
+    /* justify-content: flex-start; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-around; */
+
+    flex-wrap: wrap;
+    
+/* 
+    align-content: space-around;
+    align-items: center;
+    flex-direction: row; */
+
+    background-color: #a83838;
+
+}
+
+.flexbox-item {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 3px solid #333;
+    background-color: #dfdfdf;
+}
+
+.flex-item-1 {
+    min-height: 100px;
+    flex-shrink: 0;
+    flex-grow: 0;
+
+}
+
+.flex-item-2 {
+    min-height: 200px;
+    flex-shrink: 0;
+    flex-grow: 0;
+
+}
+
+.flex-item-3 {
+    min-height: 300px;
+    /* flex-shrink: 0; */
+    flex-grow: 1;
+
+}

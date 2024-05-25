@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(90px, auto);
+    grid-gap: 20px;
+    justify-content: start;
+    align-content: start;
+
+    /* justify-items: center; The default property is stretch */
+    /* align-items: center;  The default property is stretch */
+    
+} 
+
+.one {
+    background-color: blueviolet;
+    border: 2px solid black;
+    padding: 10px;
+    align-self: ; /* The default property is stretch*/
+    justify-self: ;  /* The default property is stretch*/
+}
+.two {
+    background-color: firebrick;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.three {
+    background-color: olive;
+    border: 2px solid black;
+    padding: 10px;
+    /* grid-column: 1/3; */
+    /* grid-row: 1/4; */
+}
+
+.four {
+    background-color: darkolivegreen;
+    border: 2px solid black;
+    padding: 10px;
+    grid-template-columns: minmax(auto-fill  );
+}
