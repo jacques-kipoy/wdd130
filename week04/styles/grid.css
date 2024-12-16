@@ -1,0 +1,27 @@
+
+
+.grid-container{
+    display: grid;
+    /* grid-template-columns: 100px 100px 100px 100px; */
+    /* The auto will take the rest of the amount of space*/
+    /* grid-template-columns: 100px 100px 100px auto;  */
+
+    /* The fr is the fractional unit and it will take the space available */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr;  */
+
+    /* When we have the same measurement repeated many time, we can use the repeat*/
+    grid-template-columns: repeat(5, 1fr);
+
+
+    gap: 30px;
+    background-color: #8cc1ec;
+    padding: 10px;
+}
+
+.grid-item{
+    background-color: #dcebf8;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;     
+}

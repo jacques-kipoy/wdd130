@@ -1,0 +1,53 @@
+
+.flexbox-container {
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    /* justify-content: start;
+    justify-content: stretch;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly; */
+    /* align-items: center;
+    align-items: flex-start; */
+    /* align-items: flex-end; */
+    align-content: center;
+
+    /* flex-direction: column; */
+
+
+
+    
+
+}
+
+.flexbox-item {
+    width: 200px;
+    margin: 10px;
+    border: 3px solid #333;
+    background-color: #dfdfdf;
+}
+
+.flexbox-item-1 {
+    flex: 1 0 10px;  /* First number = Flex grow, scond number Flex Shrink, Third number is the Flex basis
+    min-height: 100px;
+    flex-shrink: 0;
+    align-self: center;
+}
+
+.flexbox-item-2 {
+    min-height: 200px;
+    flex-grow: 2;
+    flex-basis: 0;
+    order: 3;
+    /* align-self: center; */
+}
+
+.flexbox-item-3 {
+    min-height: 300px;
+    flex-grow: 1;
+    flex-basis: 0;
+    align-self: flex-end;
+    order: 1;
+}

@@ -1,105 +1,168 @@
-/* Roboto */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-
-/* Rock Salt */
-@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
-
-
+/* @import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:ital,wght@0,300;1,300&family=Rock+Salt&display=swap'); */
+.rock-salt-regular {
+    font-family: "Rock Salt", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
 
 
 :root {
-    --heading-background-color: #DAD7CD ;
-    --heading-text-color: #333 ;
-    --heading-font:'Rock Salt','Arial Black' ;
-    --font-family:Roboto, Arial, sans-serif;
-    --paragraph-text-color: #333;
-    --padding : 1rem ;
-    --border: 1px solid rgba(0 0 0 /0.1)  ;
-}
+    --paragraph-font : Roboto, Arial;
+    --primary-color : #9AC2C9;
+    --secondary-color: #8AA1B1;
+    --accent1-color: #4A5043;
+    --accent2-color: #FFCB47;
 
-*{
-    margin: 0;
-    padding: 0;
-}
+    --heading-font: "Rock Salt", Verdana, Sans-serif;
+    --paragraph-font: Roboto, Verdana;
 
-/* styling the heading  */
+    --nav-background-color: #9AC2C9;
+    --nav-link-color:#3f9de0;
+    --nav-hover-link-color: #a1192b;
+    --nav-hover-background-color:#1e3b7a;
+}
 
 h1 {
-    background-color: var(--heading-background-color);
-    color: var(--heading-text-color);
     font-family: var(--heading-font);
-    padding: var(--padding);
-    position: absolute;
-    top: 40px;
-    left: 2px;
-    opacity: 0.7;
-    width: 95%;
+    color: var(--primary-color);
+}
+
+
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960;
+    padding: 1rem;
+    position: relative;
+
 }
 
 p {
-    padding: var(--padding);
-    font-family: var(--font-family);
-
+    padding: 20px;
     
 }
+/* 
+.hero {
+    position: absolute;
+} */
 
-.my {
-    display: inline;
-}
-
-body{
-    max-width: 700px;
-    
-}
-nav a {
-    text-decoration: none;
-    font-size: 1.5rem;
-    /* display: block; */
-}
-
-.hero{
-    position: relative;
-}
 .hero img {
     display: block;
     width: 100%;
     height: auto;
 }
-
-.para {
+h1 {
     position: absolute;
-    background-color: #A3B18A;
-    top: 200px;
-    opacity: 0.7;
-    width: 57%;
+    top: 20%;
+    left: 30%;
 }
-
-
 article {
     position: absolute;
-    background-color: #A3B18A;
-    opacity: 0.9;
-    float: right;
-
-
+    top: 30%;
+    left: 20%;
+    display: block;
+    background-color: #8c464f;
 }
-
-.happy-client {
-    position: absolute;
-    float: right;
-    width: 220px;
-    height: auto;
-    top: 200px;
-    right: 50px;
-}
-
 article img {
     float: right;
+    padding: 10px;
 }
 
-footer img {
-    width: 50px;
-    height: auto;
+.opa {
+    opacity: 0.9;
+}
 
+
+nav {
+    padding: 1.5rem;
+    text-decoration: none;
+    font-size: 20px;
+    border-bottom: none;
+    /* background-color: #3f9de0; */
+    justify-items: center;
+    margin: 20px;
+}
+
+header {
+    margin: 1rem auto;
+    display: grid;
+    align-items: center;
+    border-bottom: 1px solid #f6ebeb;
+}
+
+header img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    z-index: 1;
+}
+nav {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    text-align: center;
+
+}
+
+/* .hero {
+    margin: 0 0.24rem 0 1rem;
+    width: 64px;
+} */
+
+nav a { 
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 2rem;
+}
+.underline-links, a:hover {
+    color: tomato;
+    font-weight: 700;
+    /* text-decoration: underline; */
+
+}
+
+.history {
+    text-align: center;
+
+}
+
+.adventure {
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: auto;
+
+}
+
+.adv1 {
+    display: block;
+    grid-column: 1/2;
+    grid-row: 1;
+    text-align: center;
+    background-color: #7a1e41; 
+}
+
+.pic {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+}
+
+.im-1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+}
+.im-2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+}
+.im-3 {
+    grid-column:3/4 ;
+    grid-row: 1/2;
+}
+.im-4 {
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+.im-5 {
+    grid-column: 5/6;
+    grid-row: 1/2;
 }
